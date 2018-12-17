@@ -1,2 +1,2 @@
 # MyWallSwitch
-MySensorsd based Wall Switch EU
+MySensors based Wall Switch EU
