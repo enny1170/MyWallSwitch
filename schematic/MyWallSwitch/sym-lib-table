@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name mysensors_network)(type Legacy)(uri C:/Users/e.ziehe/OneDrive/Documents/KiCAD/mysensors_symbols-master/mysensors_network.lib)(options "")(descr ""))
+  (lib (name mysensors_radios)(type Legacy)(uri C:/Users/e.ziehe/OneDrive/Documents/KiCAD/mysensors_symbols-master/mysensors_radios.lib)(options "")(descr ""))
+  (lib (name mysensors_regulators)(type Legacy)(uri C:/Users/e.ziehe/OneDrive/Documents/KiCAD/mysensors_symbols-master/mysensors_regulators.lib)(options "")(descr ""))
+  (lib (name ennys-library)(type Legacy)(uri ${ENNYLIB}/ennys-library.lib)(options "")(descr ""))
+)
