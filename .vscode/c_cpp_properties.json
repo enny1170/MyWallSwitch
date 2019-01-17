@@ -6,12 +6,12 @@
             "includePath": [
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/cores/arduino",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/variants/eightanaloginputs",
-                "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/.piolibdeps/MySensors_ID548",
+                "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/.piolibdeps/MySensors_ID548",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/WiFi/src",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src",
-                "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src",
-                "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/.piolibdeps/nodemanager",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
+                "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/.piolibdeps/nodemanager",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/SD/src",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src",
@@ -35,8 +35,8 @@
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/TFT/src",
                 "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/Temboo/src",
                 "C:/Users/e.ziehe/.platformio/packages/tool-unity",
-                "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/include",
-                "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/src",
+                "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/include",
+                "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/src",
                 ""
             ],
             "browse": {
@@ -45,12 +45,12 @@
                 "path": [
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/cores/arduino",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/variants/eightanaloginputs",
-                    "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/.piolibdeps/MySensors_ID548",
+                    "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/.piolibdeps/MySensors_ID548",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/WiFi/src",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src",
-                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src",
-                    "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/.piolibdeps/nodemanager",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
+                    "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/.piolibdeps/nodemanager",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/SD/src",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src",
@@ -74,8 +74,8 @@
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/TFT/src",
                     "C:/Users/e.ziehe/.platformio/packages/framework-arduinoavr/libraries/Temboo/src",
                     "C:/Users/e.ziehe/.platformio/packages/tool-unity",
-                    "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/include",
-                    "c:/Users/e.ziehe/Documents/arduino/MyWallSwitch/src",
+                    "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/include",
+                    "c:/Users/e.ziehe/Documents/Arduino/MyWallSwitch/src",
                     ""
                 ]
             },
