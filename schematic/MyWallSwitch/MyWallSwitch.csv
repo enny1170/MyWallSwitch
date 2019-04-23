@@ -1,0 +1,15 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"J1";"TerminalBlock_bornier-4_P5.08mm";1;"Screw_Terminal_01x04";;;
+2;"F1";"Fuseholder5x20_horiz_open_universal_Type-III";1;"BK/GMD-1.2R";;;
+3;"U4";"NRF24L01-SMD";1;"NRF24L01";;;
+4;"U3";"DIP-8_W7.62mm_SMDSocket_SmallPads";1;"AQH3213";;;
+5;"U2";"TQFP-32_7x7mm_Pitch0.8mm";1;"ATmega328P-AU";;;
+6;"Y1";"Resonator_Ceramic";1;"Resonator";;;
+7;"J2";"Pin_Header_Straight_1x06_Pitch2.54mm";1;"TTL";;;
+8;"R1";"R_0603_HandSoldering";1;"220R";;;
+9;"R2";"R_0603_HandSoldering";1;"10k";;;
+10;"U1";"HLK-PM01";1;"HLK-PM03 (3.3 1A)";;;
+11;"RV1";"RV_Disc_D7_W5.5_P5";1;"MOV-07D391KTR";;;
+12;"J3";"Pin_Header_Straight_2x03_Pitch2.54mm_SMD";1;"AVR-ISP-6";;;
+13;"C1,C3,C6,C4,C2,C5";"C_0603_HandSoldering";6;"100n";;;
+14;"SW1";"SW_SPST_EVQPE1";1;"SW_Push";;;

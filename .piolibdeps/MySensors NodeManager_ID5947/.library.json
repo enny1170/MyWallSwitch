@@ -1,0 +1,49 @@
+{
+    "name": "MySensors NodeManager", 
+    "version": "1.8.0", 
+    "keywords": [
+        "sensors"
+    ], 
+    "description": "Frontend for your MySensors projects.", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "authors": [
+        {
+            "email": "user2684@users.sf.net", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "user2684"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/mysensors/NodeManager"
+    }, 
+    "homepage": null, 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }, 
+    "id": 5947
+}
