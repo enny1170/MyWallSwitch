@@ -7,9 +7,9 @@ encoding utf-8
 Sheet 1 1
 Title "Wall-Switch Circurit"
 Date "2019-01-02"
-Rev "1"
+Rev "2"
 Comp "smart-devices.cf"
-Comment1 ""
+Comment1 "RX <> TX, Res Gnd, DTR Cap"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -263,7 +263,7 @@ U 1 1 5C2D6596
 P 6900 3500
 F 0 "J3" H 6620 3504 50  0000 R CNN
 F 1 "AVR-ISP-6" H 6620 3595 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" V 6650 3550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" V 6650 3550 50  0001 C CNN
 F 3 " ~" H 5625 2950 50  0001 C CNN
 	1    6900 3500
 	-1   0    0    1   
@@ -274,18 +274,18 @@ Connection ~ 7600 3100
 Wire Wire Line
 	7600 3100 7600 3150
 Wire Wire Line
-	5800 3400 5800 4050
+	5800 3400 5800 4000
 Wire Wire Line
 	5800 4050 5100 4050
 $Comp
 L Device:R R2
 U 1 1 5C2D942F
-P 6150 4050
-F 0 "R2" V 5943 4050 50  0000 C CNN
-F 1 "10k" V 6034 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6080 4050 50  0001 C CNN
-F 3 "~" H 6150 4050 50  0001 C CNN
-	1    6150 4050
+P 6550 4000
+F 0 "R2" V 6343 4000 50  0000 C CNN
+F 1 "10k" V 6434 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 4000 50  0001 C CNN
+F 3 "~" H 6550 4000 50  0001 C CNN
+	1    6550 4000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -299,31 +299,7 @@ F 3 "" H 7000 4100 50  0001 C CNN
 	1    7000 4100
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	7000 4000 7000 4050
-Wire Wire Line
-	6300 4050 7000 4050
-Connection ~ 7000 4050
-Wire Wire Line
-	7000 4050 7000 4100
-Wire Wire Line
-	6000 4050 5800 4050
 Connection ~ 5800 4050
-$Comp
-L Device:C C5
-U 1 1 5C2DC2FE
-P 6200 3400
-F 0 "C5" V 5948 3400 50  0000 C CNN
-F 1 "100n" V 6039 3400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 3250 50  0001 C CNN
-F 3 "~" H 6200 3400 50  0001 C CNN
-	1    6200 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6500 3400 6350 3400
-Wire Wire Line
-	6050 3400 5800 3400
 Wire Wire Line
 	6500 3500 6450 3500
 Wire Wire Line
@@ -356,33 +332,10 @@ F 3 "~" H 6650 4450 50  0001 C CNN
 	1    6650 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C4
-U 1 1 5C2E1A18
-P 5950 4250
-F 0 "C4" V 5698 4250 50  0000 C CNN
-F 1 "100n" V 5789 4250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5988 4100 50  0001 C CNN
-F 3 "~" H 5950 4250 50  0001 C CNN
-	1    5950 4250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 4250 6450 4250
 Wire Wire Line
 	5800 4250 5800 4050
 Wire Wire Line
-	6450 4350 5700 4350
-Wire Wire Line
-	5700 4350 5700 4250
-Wire Wire Line
 	5700 4250 5100 4250
-Wire Wire Line
-	6450 4450 5650 4450
-Wire Wire Line
-	5650 4450 5650 4350
-Wire Wire Line
-	5650 4350 5100 4350
 $Comp
 L power:GND #PWR010
 U 1 1 5C2E68C0
@@ -450,7 +403,7 @@ U 1 1 5C2F5C14
 P 5850 4850
 F 0 "SW1" H 5850 5135 50  0000 C CNN
 F 1 "SW_Push" H 5850 5044 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_B3S-1000" H 5850 5050 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQPE1" H 5850 5050 50  0001 C CNN
 F 3 "" H 5850 5050 50  0001 C CNN
 	1    5850 4850
 	1    0    0    -1  
@@ -547,7 +500,7 @@ U 1 1 5C31D9DC
 P 2150 2400
 F 0 "F1" H 2210 2446 50  0000 L CNN
 F 1 "BK/GMD-1.2R" H 2210 2355 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 2080 2400 50  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" V 2080 2400 50  0001 C CNN
 F 3 "~" H 2150 2400 50  0001 C CNN
 	1    2150 2400
 	1    0    0    -1  
@@ -656,4 +609,42 @@ Wire Wire Line
 Connection ~ 2150 1450
 Wire Wire Line
 	2150 1450 2550 1450
+Wire Wire Line
+	7000 3100 6000 3100
+Wire Wire Line
+	6000 3100 6000 3200
+Connection ~ 7000 3100
+Wire Wire Line
+	5700 4450 6450 4450
+Wire Wire Line
+	5700 4250 5700 4450
+Wire Wire Line
+	5100 4350 6450 4350
+Wire Wire Line
+	5800 3400 6500 3400
+$Comp
+L Device:C_Small C4
+U 1 1 5CCA652B
+P 5950 4250
+F 0 "C4" V 5721 4250 50  0000 C CNN
+F 1 "100n" V 5812 4250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5950 4250 50  0001 C CNN
+F 3 "~" H 5950 4250 50  0001 C CNN
+	1    5950 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 4000 7000 4100
+Wire Wire Line
+	6700 4000 7000 4000
+Connection ~ 7000 4000
+Wire Wire Line
+	6400 4000 5800 4000
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 5800 4050
+Wire Wire Line
+	5800 4250 5850 4250
+Wire Wire Line
+	6050 4250 6450 4250
 $EndSCHEMATC
