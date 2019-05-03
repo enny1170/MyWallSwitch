@@ -35,7 +35,7 @@ NodeManager. Just uncomment the settings you need and the sensors you want to ad
 
 // General settings
 #define SKETCH_NAME "MyWallSwitch"
-#define SKETCH_VERSION "1.0"
+#define SKETCH_VERSION "1.1"
 //#define MY_DEBUG
 //#define MY_NODE_ID 11
 
@@ -115,7 +115,7 @@ NodeManager. Just uncomment the settings you need and the sensors you want to ad
  */
  
 // Common gateway settings
-//#define MY_REPEATER_FEATURE
+#define MY_REPEATER_FEATURE
 
 // Serial gateway settings
 //#define MY_GATEWAY_SERIAL
@@ -199,8 +199,8 @@ void toggleRelay(Sensor* sensor);
 //#include <sensors/SensorConfiguration.h>
 //SensorConfiguration configuration;
 
-#include <sensors/SensorSignal.h>
-SensorSignal signal;
+//#include <sensors/SensorSignal.h>
+//SensorSignal signal;
 
 //#include <sensors/SensorAnalogInput.h>
 //SensorAnalogInput analog(A0);
@@ -416,7 +416,8 @@ void before() {
   //interrupt.setWaitAfterInterrupt(100);
   nodeManager.setInterruptDebounce(1000);
   nodeManager.setReportIntervalMinutes(10);
-  signal.setReportIntervalMinutes(5);
+  
+  //signal.setReportIntervalMinutes(5);
   // call NodeManager before routine
   nodeManager.before();
 }
