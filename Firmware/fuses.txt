@@ -1,3 +1,5 @@
+// Fuses for PCB and Firware with Booloader
+
 L = 0xFF
 H = 0xDA
 E = 0xFD
